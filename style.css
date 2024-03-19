@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: blue;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .image img:hover{
+    /* background-color: burlywood; */
+    border: 2px solid black;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 20px;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.message p{
+    font-size: 23px;
+    background-color: aqua;
+}
+#user_score{
+    font-size: 80px;
+}
+#comp_score{
+    font-size: 80px;
+}
